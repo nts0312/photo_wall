@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Main from "./Components/Main";
+import stylesheet from "./styles/stylesheet.css";
 
-const element = React.createElement("h1", null, "Hello App");
-ReactDOM.render(element, document.getElementById("root"));
+ReactDOM.render(<Main />, document.getElementById("root"));
